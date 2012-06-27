@@ -65,21 +65,79 @@ td { vertical-align: top; }
 /* ==|== primary styles =====================================================
    Author: 
    ========================================================================== */
+body {
+  padding-top:10px;
+}
+h1 {
+  margin-bottom:15px;
+}
 
+h2 {
+  border-bottom:1px solid #333;
+  margin:-5px;
+  padding:5px 10px;
+  background: #93cede;
+  background: -moz-linear-gradient(top,  #93cede 0%, #75bdd1 41%, #49a5bf 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#93cede), color-stop(41%,#75bdd1), color-stop(100%,#49a5bf));
+  background: -webkit-linear-gradient(top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%);
+  background: -o-linear-gradient(top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%);
+  background: -ms-linear-gradient(top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%);
+  background: linear-gradient(top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf',GradientType=0 );
 
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
 
+.organization {
+  border:1px solid #aaa;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom:15px;
+  padding:5px;
 
+  -moz-box-shadow: 0 0 3px 3px #eee;
+  -webkit-box-shadow: 0 0 3px 3px #eee;
+  box-shadow: 0 0 3px 3px #eee;
+}
 
+.project {
+  border-bottom:1px solid #ccc;
+  margin:0 -5px;
+  padding-top:15px;
+  padding:10px;
+  padding-bottom:5px;
+}
 
+.organization > .project:last-of-type {
+  border-bottom:0px solid #fff;
+  padding-bottom:0px;
+}
 
+.project h3 a:link, .project h3 a:visited {
+  color: teal;
+}
 
+.project p {
+  margin-top:2px;
+}
 
+.language, .forks, .watchers {
+  float:right;
+  margin-top:5px;
+  margin-left:5px;
+}
 
-
-
-
-
-
+.forks, .watchers {
+  background:#ddd;
+  font-weight:bold;
+  padding: 1px 4px 2px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 10.998px;
+}
 
 /* ==|== non-semantic helper classes ======================================== */
 .ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
