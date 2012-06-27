@@ -68,6 +68,12 @@ td { vertical-align: top; }
 body {
   padding-top:10px;
 }
+
+footer {
+  text-align:center;
+  margin-bottom:25px;
+}
+
 h1 {
   margin-bottom:15px;
 }
