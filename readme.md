@@ -15,4 +15,4 @@ Contributing to the Project
 1. Commit, push
 1. Visit your repository's page to submit a pull request
 
-*Note: By contributing to this project, you agree to license your work under the same terms as those that govern this project's distribution.*
+*Note: By contributing to this project, you agree to license your work under the same terms as those that govern this project's distribution. See license.txt for more information.*
