@@ -1,6 +1,6 @@
 /* @author: Chris Barna <@ctbarna> */
 $(document).ready(function () {
-	$.get("http://registry.usa.gov/accounts.json?service_id=github", function (data) {
+	$.getJSON("http://registry.usa.gov/accounts.json?service_id=github", function (data) {
 		for (var i = 0; i < data.accounts.length; i += 1) {
 			$("#main").append("<div id=\""+data.accounts[i].account+"\" class=\"organization\"><h2>"+data.accounts[i].organization+"</h2></div>");
 			$.getJSON("https://api.github.com/users/"+data.accounts[i].account+"/repos?callback=?", function (repo_data) {
