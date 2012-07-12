@@ -4,7 +4,7 @@ Federal Open Source Repositories
 Live version available at: 
 -------------------------
 
-http://generalservicesadministration.github.com/federal-open-source-repos/
+http://gsa.github.com/federal-open-source-repos/
 
 Contributing to the Project
 ---------------------------
