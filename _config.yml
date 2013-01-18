@@ -1,9 +1,11 @@
 #settings
 url: http://gsa.github.com/federal-open-source-repos
-title: Government GitHub Projects
+title: Government Open Source Projects
+description: A dynamically generated list of open source projects hosted on GitHub
 sm_api: http://registry.usa.gov/accounts.json?service_id=github&callback=?
 gh_api: https://api.github.com/users/<%= account %>/repos?callback=?
 
 #build config
 server: true
 auto: true
+exclude: ["node_modules"]

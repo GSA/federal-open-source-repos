@@ -1,0 +1,33 @@
+<li class="repo" id="<%= full_name %>">
+  
+  <ul class="meta">
+
+    <li class="language label"><%= language || "" %></li>
+    
+    <li class="stars label">
+      <a href="<%= stargazers_url.replace("api.", "").replace("repos", "") %>">
+        <i class="icon-star icon-white"></i>
+        <%= watchers %>
+      </a>
+    </li>
+    
+    <li class="forks label">
+      <a href="<%= forks_url.replace("api.", "").replace("repos", "") %>">
+        <i class="icon-random icon-white"></i>
+        <%= forks %>
+      </a>
+    </li>
+
+  </ul>
+  
+  <h3>
+    <a href="<%= html_url %>">
+      <%= name %>
+    </a>
+  </h3>
+  
+  <p class="description"><%= description %></p>
+  
+  <div class="updated">Last Updated <%= moment(updated_at).fromNow() %></div>
+
+</li>
