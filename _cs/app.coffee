@@ -30,8 +30,7 @@ class RepoList.Collections.Repos extends Backbone.Collection
   urlTemplate: '{{ site.gh_api }}'
   
   url: ->
-    compiled = _.template @urlTemplate
-    compiled account: @agency
+    _.template @urlTemplate, account: @agency
     
   parse: (response) ->
     response.data
@@ -51,11 +50,9 @@ class RepoList.Views.Agency extends Backbone.View
   el: "#agencies"
   
   render: ->
-    repos = ''
     @$el.append RepoList.Templates.agency agency: @model.toJSON()
     
 class RepoList.Views.Repo extends Backbone.View
-  tagName: "li"
   
   render: ->
     @$el.append RepoList.Templates.repo @model.toJSON()
