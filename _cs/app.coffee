@@ -20,7 +20,6 @@ class RepoList.Collections.Agencies extends Backbone.Collection
     repos.fetch update: true
     
   initView: (agency) ->
-    console.log "AGENCY", agency.get("account")
     new RepoList.Views.Agency(model: agency).render()
   
 class RepoList.Models.Repo extends Backbone.Model
