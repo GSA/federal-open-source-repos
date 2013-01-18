@@ -1,5 +1,5 @@
 #settings
-url: http://gsa.github.com/federal-open-source-repos
+url: http://ben.balter.com/federal-open-source-repos/
 title: Government Open Source Projects
 description: A dynamically generated list of open source projects hosted on GitHub
 sm_api: http://registry.usa.gov/accounts.json?service_id=github&callback=?
