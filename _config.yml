@@ -1,10 +1,10 @@
 #settings
-url_base: federal-open-source-repos
-title: Government Open Source Projects
-description: A dynamically generated list of open source projects hosted on GitHub
-sm_api: http://registry.usa.gov/accounts.json?service_id=github&callback=?
-gh_api: https://api.github.com/users/<%= account %>/repos?callback=?
-repo: https://github.com/GSA/federal-open-source-repos
+url_base: "federal-open-source-repos"
+title: "Government Open Source Projects"
+description: "A dynamically generated list of open source projects hosted on GitHub"
+sm_api: "http://registry.usa.gov/accounts.json?service_id=github&callback=?"
+gh_api: "https://api.github.com/users/<%= account %>/repos?callback=?"
+repo: "https://github.com/GSA/federal-open-source-repos"
 
 #build config
 server: true
@@ -12,5 +12,5 @@ auto: true
 exclude: ["node_modules"]
 
 #API Keys to avoid rate limits while deving
-client_id:
-client_secret:
+client_id: ""
+client_secret: ""
