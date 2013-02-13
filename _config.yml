@@ -9,3 +9,7 @@ gh_api: https://api.github.com/users/<%= account %>/repos?callback=?
 server: true
 auto: true
 exclude: ["node_modules"]
+
+#API Keys to avoid rate limits while deving
+client_id:
+client_secret:

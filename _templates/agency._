@@ -1,4 +1,2 @@
-<div class="agency" id="<%= agency.account %>">
-  <h2><%= agency.organization %></h2>
-  <ul class="repos"> </ul>
-</div>
+<h2><%= agency.organization %> (<span class="count">0</span>)</h2>
+<ul class="repos"> </ul>
