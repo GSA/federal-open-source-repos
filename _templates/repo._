@@ -19,7 +19,7 @@
 </ul>
 
 <h3>
-  <a href="<%= html_url %>">
+  <a href="<%= html_url %>" target="_blank">
     <%= name %>
   </a>
 </h3>
