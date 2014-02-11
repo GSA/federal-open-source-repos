@@ -6,6 +6,8 @@ Live version available at:
 
 http://gsa.github.com/federal-open-source-repos/
 
+Or, to avoid issues around rate limiting - http://federal-repositories.herokuapp.com/.
+
 [Note a sister project at http://ada.mbecker.cc/USAxGITHUB/]
 
 
