@@ -4,11 +4,11 @@ Federal Open Source Repositories
 Live version available at: 
 -------------------------
 
-http://gsa.github.com/federal-open-source-repos/
+http://federal-repositories.herokuapp.com/  (you'll have to do a one-time authentication against your github account)
 
-Or, to avoid issues around rate limiting - http://federal-repositories.herokuapp.com/.
+_Note that the original version at http://gsa.github.com/federal-open-source-repos/ is still live but now hits the API rate limits of GitHub for unathenticated users.  This is a good problem! It's because there's such growth in government GitHub usage._  
 
-[Note a sister project at http://ada.mbecker.cc/USAxGITHUB/]
+**Also note sister projects** at www.govcode.org and http://ada.mbecker.cc/USAxGITHUB.  
 
 
 Contributing to the Project
